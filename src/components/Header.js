@@ -3,7 +3,7 @@ import React from 'react'
 import Logo from '../../src/logo.svg';
 
 
-const profileImg = 'https://avatars.githubusercontent.com/u/112094927?v=4';
+const profileImg = 'https://avatars.githubusercontent.com/u/23169258?s=400&u=ef9bd72f33eccfd0c7fd8ce5c380c45986a4edcd&v=4';
 const Header = () => {
     return (
         <>
