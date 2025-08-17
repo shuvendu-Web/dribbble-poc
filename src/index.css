@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0
+}
+
+.search-box:hover {
+   border-color: rgba(0,0,0,0.1);
+   background-color: #fff;
+   -webkit-box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.product-info{
+   opacity: 0;
+   transition: 0.25s ease-in-out all;
+}
+
+.product-item:hover .product-info{
+   opacity: 1;
+}
